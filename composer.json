@@ -1,0 +1,14 @@
+{
+    "name": "exercise/brightcove",
+    "type": "library",
+    "description": "brightcove php sdk fork",
+    "keywords": ["brightcove", "api", "sdk"],
+    "homepage": "https://github.com/Exercise/PHP-MAPI-Wrapper",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+       "classmap": ["bc-mapi.php", "bc-mapi-cache.php"]
+    }
+}
